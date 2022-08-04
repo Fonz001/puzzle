@@ -2,6 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router/index'
 import PrimeVue from 'primevue/config'
+import Textarea from 'primevue/textarea';
 import InputText from 'primevue/inputtext'
 import Dropdown from 'primevue/dropdown'
 import Button from 'primevue/button'
@@ -29,6 +30,7 @@ app.use(ToastService)
 app.use(PrimeVue)
 
 app.component('InputText', InputText)
+app.component('Textarea', Textarea)
 app.component('Dropdown', Dropdown)
 app.component('Button', Button)
 app.component('DataTable', DataTable)
